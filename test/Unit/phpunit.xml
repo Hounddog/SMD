@@ -1,0 +1,11 @@
+<phpunit
+    bootstrap="./Bootstrap.php"
+    colors="true"
+    backupGlobals="false"
+>
+    <testsuites>
+        <testsuite name="SmdModule Unit Test Suite">
+            <directory>./SmdModuleTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
